@@ -13,13 +13,14 @@ function divide(a,b){
   return a / b
 }
 
+var n = 0;
+
 function inc(n) {
-  var number = n;
-  return number++
+  return n++
 }
 
 function dec(n) {
-  return (n--)
+  return n--
 }
 
 function makeInt(n) {
